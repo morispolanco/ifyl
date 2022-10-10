@@ -55,7 +55,7 @@ question = st.text_input("Say Something to the Chatbot:",
                          value='Hello Mises')
 message(question, is_user=True)
 
-answer = jolly(question, chat_log)
+answer = mises(question, chat_log)
 
 # printing the Answer
 chat_log = append_interaction_to_chat_log(question, answer, chat_log)
