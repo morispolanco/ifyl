@@ -15,7 +15,7 @@ restart_sequence = "\n\nPerson:"
 
 st.set_page_config(
     page_icon='🏢',
-    page_title='AI ChatBot',
+    page_title='AI Mises ChatBot',
     layout="centered",
     initial_sidebar_state="expanded",
     menu_items={
@@ -24,9 +24,9 @@ st.set_page_config(
         'Report a bug': "https://github.com",
     }
 )
-st.title("AI GPT-3 ChatBot")
+st.title("AI Mises ChatBot")
 
-st.sidebar.title("🏢 AI Chatbot")
+st.sidebar.title("🏢 AI Mises Chatbot")
 st.sidebar.markdown("""
 
 **Feedback/Questions**:
@@ -51,7 +51,7 @@ def append_interaction_to_chat_log(question, answer, chat_log=None):
         return f'{chat_log}{restart_sequence} {question}{start_sequence}{answer}'
 
 
-question = st.text_input("Say Something to the Chatbot:",
+question = st.text_input("Say Something to the Mises:",
                          value='Hello Mises')
 message(question, is_user=True)
 
