@@ -51,7 +51,7 @@ def append_interaction_to_chat_log(question, answer, chat_log=None):
         return f'{chat_log}{restart_sequence} {question}{start_sequence}{answer}'
 
 
-question = st.text_input("Say Something to the Mises:",
+question = st.text_input("Say Something to Mises:",
                          value='Hello Mises')
 message(question, is_user=True)
 
