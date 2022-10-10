@@ -52,7 +52,7 @@ def append_interaction_to_chat_log(question, answer, chat_log=None):
 
 
 question = st.text_input("Say Something to the Chatbot:",
-                         value='Hello Moris')
+                         value='Hello Mises')
 message(question, is_user=True)
 
 answer = jolly(question, chat_log)
