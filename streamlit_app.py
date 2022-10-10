@@ -10,7 +10,7 @@ from Sentiment import sentiment
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
-start_sequence = "\nMoris:"
+start_sequence = "\nMises:"
 restart_sequence = "\n\nPerson:"
 
 st.set_page_config(
@@ -65,10 +65,10 @@ with st.expander("Not sure what to ask?"):
     st.markdown("""
 Try some of these:
 ```
-1. What is artificial intelligence?
-2. How does GPT-3 work?
-3. What are the Writing Assistant tools?
-4. Can I write a book with AI?
-5. Ethical considerations on the use of AI.
+1. What are the causes of poverty?
+2. What are the causes of inflation?
+3. Does Capitalism creates inequality?
+4. How to limit the power of the State?
+5. Do you have any difference of opinion with Friedrich Hayek?.
 ```
     """)
