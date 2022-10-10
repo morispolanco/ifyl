@@ -67,8 +67,8 @@ Try some of these:
 ```
 1. What are the causes of poverty?
 2. What are the causes of inflation?
-3. Does Capitalism creates inequality?
+3. Does capitalism create inequalities?
 4. How to limit the power of the State?
-5. Do you have any difference of opinion with Friedrich Hayek?.
+5. Do you have a difference of opinion with Friedrich Hayek?
 ```
     """)
