@@ -10,12 +10,12 @@ from Sentiment import sentiment
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
-start_sequence = "\nJolly:"
+start_sequence = "\nMoris:"
 restart_sequence = "\n\nPerson:"
 
 st.set_page_config(
     page_icon='🏢',
-    page_title='Attorney ChatBot',
+    page_title='AI ChatBot',
     layout="centered",
     initial_sidebar_state="expanded",
     menu_items={
@@ -24,9 +24,9 @@ st.set_page_config(
         'Report a bug': "https://github.com",
     }
 )
-st.title("Attorney GPT-3 ChatBot")
+st.title("AI GPT-3 ChatBot")
 
-st.sidebar.title("🏢 Attorney Chatbot")
+st.sidebar.title("🏢 AI Chatbot")
 st.sidebar.markdown("""
 
 **Feedback/Questions**:
@@ -52,7 +52,7 @@ def append_interaction_to_chat_log(question, answer, chat_log=None):
 
 
 question = st.text_input("Say Something to the Chatbot:",
-                         value='Hello Jolly')
+                         value='Hello Moris')
 message(question, is_user=True)
 
 answer = jolly(question, chat_log)
