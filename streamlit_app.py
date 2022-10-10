@@ -4,7 +4,7 @@ import os
 import openai
 import streamlit as st
 from streamlit_chat import message
-from Bot import jolly, session_prompt
+from Bot import mises, session_prompt
 from Sentiment import sentiment
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
