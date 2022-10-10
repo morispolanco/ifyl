@@ -22,8 +22,7 @@ Bot1 = ChatBot(
 
 corpus_trainer = ChatterBotCorpusTrainer(Bot1)
 corpus_trainer.train('chatterbot.corpus.english')
-corpus_trainer.train('chatterbot.corpus.hindi')
-corpus_trainer.train('chatterbot.corpus.telugu')
+corpus_trainer.train('chatterbot.corpus.spanish')
 
 
 list_trainer = ListTrainer(Bot1)
