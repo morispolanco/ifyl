@@ -51,7 +51,7 @@ def append_interaction_to_chat_log(question, answer, chat_log=None):
         return f'{chat_log}{restart_sequence} {question}{start_sequence}{answer}'
 
 
-question = st.text_input("Pregúntenos cualquier cosa:",
+question = st.text_input("Pregúntenos:",
                          value='¿Cuál es su misión?')
 message(question, is_user=True)
 
@@ -61,11 +61,11 @@ answer = mises(question, chat_log)
 chat_log = append_interaction_to_chat_log(question, answer, chat_log)
 message(answer)
 
-with st.expander("Not sure what to ask?"):
+with st.expander("?No estaá seguro de qué preguntar?"):
     st.markdown("""
-Try some of these:
+Pruebe con alguna de estas preguntas:
 ```
-1. ¿Cuál es la relación entre fe y libertad?
+1. ¿Cuómo influye la fe fe y en libertad, personal y política?
 2. ¿Cómo se relacionan fe y desarrollo económico?
 3. ¿En qué principios se funda la civilización occidental?
 4. ¿Qué postula el principio de subsidiariedad?
