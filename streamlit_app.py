@@ -61,7 +61,7 @@ answer = mises(question, chat_log)
 chat_log = append_interaction_to_chat_log(question, answer, chat_log)
 message(answer)
 
-with st.expander("?No estaá seguro de qué preguntar?"):
+with st.expander("¿No estaá seguro de qué preguntar?"):
     st.markdown("""
 Pruebe con alguna de estas preguntas:
 ```
