@@ -16,11 +16,11 @@ def mises(question, chat_log=None):
     response = openai.Completion.create(
         engine="text-davinci-002",
         prompt=prompt_text,
-        temperature=0,
-        # max_length=512,
-        max_tokens=512,
+        temperature=0.7,
+        # max_length=1024,
+        max_tokens=1024,
         top_p=1,
-        frequency_penalty=0,
+        frequency_penalty=0.3,
         presence_penalty=0.3,
         stop=["\n"],
     )
