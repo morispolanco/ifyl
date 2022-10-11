@@ -74,6 +74,6 @@ Pruebe con alguna de estas preguntas:
 7. ¿Cómo se relaciona la verdad con la libertad?
 8. ¿Cómo damos gloria a Dios?
 9. ¿Se puede ser liberal en política y conservador en moral?
-10. ¿Qué ideas o principios  deben presidir el ordenamiento social y político?
+10. ¿Qué ideas o principios deben presidir el ordenamiento social y político?
 ```
     """)
