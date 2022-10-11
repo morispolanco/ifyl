@@ -65,7 +65,7 @@ with st.expander("¿No está seguro de qué preguntar?"):
     st.markdown("""
 Pruebe con alguna de estas preguntas:
 ```
-1. ¿Cómo influye la fe en libertad, personal y política?
+1. ¿Cómo influye la fe en libertad?
 2. ¿Cómo se relacionan fe y desarrollo económico?
 3. ¿En qué principios se funda la civilización occidental?
 4. ¿Qué postula el principio de subsidiariedad?
