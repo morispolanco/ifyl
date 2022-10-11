@@ -26,7 +26,7 @@ st.set_page_config(
 )
 st.title("ChatBot del Instituto Fe y Libertad")
 
-st.sidebar.title("🏢 ChatBot del Instituto Fe y Libertad")
+st.sidebar.title("🏢 ChatBot del IFYL")
 st.sidebar.markdown("""
 
 **Feedback/Questions**:
@@ -65,10 +65,11 @@ with st.expander("Not sure what to ask?"):
     st.markdown("""
 Try some of these:
 ```
-1. What are the causes of poverty?
-2. What are the causes of inflation?
-3. Does capitalism create inequalities?
-4. How to limit the power of the State?
-5. Do you have a difference of opinion with Friedrich Hayek?
+1. ¿Cuál es la relación entre fe y libertad?
+2. ¿Cómo se relacionan fe y desarrollo económico?
+3. ¿En qué principios se funda la civilización occidental?
+4. ¿Qué postula el principio de subsidiariedad?
+5. ¿Qué ideas deben presidir el florecimiento humano?
+6. ¿El florecimiento humano necesita del bienestar económico y material?
 ```
     """)
