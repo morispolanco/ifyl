@@ -70,6 +70,10 @@ Pruebe con alguna de estas preguntas:
 3. ¿En qué principios se funda la civilización occidental?
 4. ¿Qué postula el principio de subsidiariedad?
 5. ¿Qué ideas deben presidir el florecimiento humano?
-6. ¿El florecimiento humano necesita del bienestar económico y material?
+6. ¿Qué lugar ocupa el bienestar material en el florecimiento humano?
+7. ¿Cómo se relaciona la verdad con la libertad?
+8. ¿Cómo damos gloria a Dios?
+9. ¿Se puede ser liberal en política y conservador en moral?
+10. ¿Qué ideas o principios  deben presidir el ordenamiento social y político?
 ```
     """)
