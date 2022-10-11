@@ -1,122 +1,26 @@
-﻿
 training_dataset = [
-    "What rights do persons of disability have?",
-    "Free education for children with benchmark disabilities. Reservation in higher educational institutions. Identification of posts for reservation.Reservation.Incentives to employers in private sector.Special employment exchange.Special schemes and development programmes.",
-
-    "What are the rights of disable people?",
-    "Free education for children with benchmark disabilities. Reservation in higher educational institutions. Identification of posts for reservation.Reservation.Incentives to employers in private sector.Special employment exchange.Special schemes and development programmes.",
-
-    "What are the rights for a person of disability?",
-    "Free education for children with benchmark disabilities. Reservation in higher educational institutions. Identification of posts for reservation.Reservation.Incentives to employers in private sector.Special employment exchange.Special schemes and development programmes.",
-
-
-    "What rights do women and children have?",
-    "According to the act -The appropriate Government and local authorities shall ensure that all children with disabilities shall have right on an equal basis to freely express their views on all matters affecting them and provide them appropriate support keeping in view their age and disability. To view the act click -https://legislative.gov.in/sites/default/files/A2016-49_1.pdf ",
-
-    "What are the rights of women and children?",
-    "According to the act -The appropriate Government and local authorities shall ensure that all children with disabilities shall have right on an equal basis to freely express their views on all matters affecting them and provide them appropriate support keeping in view their age and disability. To view the act click -https://legislative.gov.in/sites/default/files/A2016-49_1.pdf ",
-
-
-    "I am facing discrimination in the workspace.",
-    "According to the law - No Government establishment shall discriminate against any person with disability in any matter relating to employment: Provided that the appropriate Government may, having regard to the type of work carried on in any establishment, by notification and subject to such conditions, if any, exempt any establishment from the provisions of this section. To view the act click -https://legislative.gov.in/sites/default/files/A2016-49_1.pdf ",
-
-    "I have been subjected to discrimination in my workspace.",
-    "According to the law - No Government establishment shall discriminate against any person with disability in any matter relating to employment: Provided that the appropriate Government may, having regard to the type of work carried on in any establishment, by notification and subject to such conditions, if any, exempt any establishment from the provisions of this section. To view the act click -https://legislative.gov.in/sites/default/files/A2016-49_1.pdf ",
-
-    "I need a lawyer",
-    "Here you go, the best platform for all your legal needs - https://vakilsearch.com/ ",
-
-    "I want a lawyer",
-    "Here you go, the best platform for all your legal needs - https://vakilsearch.com/ ",
-
-    "I need a legal advisor",
-    "Here you go, the best platform for all your legal needs - https://vakilsearch.com/ ",
-
-    "How can i avail an insurance scheme?",
-    "The appropriate Government shall, by notification, make insurance schemes for their employees with disabilities. For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "I am looking for a rehab.",
-    "The appropriate Government and the local authorities shall within their economic capacity and development, undertake or cause to be undertaken services and programmes of rehabilitation, particularly in the areas of health, education and employment for all persons with disabilities. For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "Can I play sports?",
-    "The sports authorities shall accord due recognition to the right of persons with disabilities to participate in sports and shall make due provisions for the inclusion of persons with disabilities in their schemes and programmes for the promotion and development of sporting talents. For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "I am not allowerd to play sports because I am disabled",
-    "The sports authorities shall accord due recognition to the right of persons with disabilities to participate in sports and shall make due provisions for the inclusion of persons with disabilities in their schemes and programmes for the promotion and development of sporting talents. For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "I am not getting admission in a school because of my disability, is this legal? ",
-    "Notwithstanding anything contained in the Rights of Children to Free and Compulsory Education Act, 2009 (35 of 2009), every child with benchmark disability between the age of six to eighteen years shall have the right to free education in a neighbourhood school, or in a special school, of his choice. (2) The appropriate Government and local authorities shall ensure that every child with benchmark disability has access to free education in an appropriate environment till he attains the age of eighteen years.For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "Am I allowed to get admission if I am disabled?",
-    "Notwithstanding anything contained in the Rights of Children to Free and Compulsory Education Act, 2009 (35 of 2009), every child with benchmark disability between the age of six to eighteen years shall have the right to free education in a neighbourhood school, or in a special school, of his choice. (2) The appropriate Government and local authorities shall ensure that every child with benchmark disability has access to free education in an appropriate environment till he attains the age of eighteen years.For further assistance, please visit - https://vakilsearch.com/",
-
-    "How much reservation do I have as a disabled person?",
-    "All Government institutions of higher education and other higher education institutions receiving aid from the Government shall reserve not less than five per cent. seats for persons with benchmark disabilities. (2) The persons with benchmark disabilities shall be given an upper age relaxation of five years for admission in institutions of higher education.For further assistance, please visit - https://vakilsearch.com/",
-
-    "Can I access reservation ?",
-    "All Government institutions of higher education and other higher education institutions receiving aid from the Government shall reserve not less than five per cent. seats for persons with benchmark disabilities. (2) The persons with benchmark disabilities shall be given an upper age relaxation of five years for admission in institutions of higher education.For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "Do I have reservation?",
-    "All Government institutions of higher education and other higher education institutions receiving aid from the Government shall reserve not less than five per cent. seats for persons with benchmark disabilities. (2) The persons with benchmark disabilities shall be given an upper age relaxation of five years for admission in institutions of higher education.For further assistance, please visit - https://vakilsearch.com/",
-
-    "Can I get incentives in my employment ?",
-    "The appropriate Government and the local authorities shall, within the limit of their economic capacity and development, provide incentives to employer in private sector to ensure that at least five per cent. of their work force is composed of persons with benchmark disability.For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "Do I have special rights in my employment? ",
-    "The appropriate Government and the local authorities shall, within the limit of their economic capacity and development, provide incentives to employer in private sector to ensure that at least five per cent. of their work force is composed of persons with benchmark disability.For further assistance, please visit - https://vakilsearch.com/",
-
-    "Does the government run awareness campaigns ?",
-    "The appropriate Government, in consultation with the Chief Commissioner or the State Commissioner, as the case may be, shall conduct, encourage, support or promote awareness campaigns and sensitisation programmes to ensure that the rights of the persons with disabilities provided under this Act are protected.For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "How do I access public transport?",
-    "The act states that - The appropriate Government shall take suitable measures to provide,— (a) facilities for persons with disabilities at bus stops, railway stations and airports conforming to the accessibility standards relating to parking spaces, toilets, ticketing counters and ticketing machines;(b) access to all modes of transport that conform the design standards, including retrofitting oldmodes of transport, wherever technically feasible and safe for persons with disabilities, economically viable and without entailing major structural changes in design;  (c) accessible roads to address mobility necessary for persons with disabilities.(2) The appropriate Government shall develop schemes programmes to promote the personal mobility of persons with disabilities at affordable cost to provide for,— (a) incentives and concessions; (b) retrofitting of vehicles; and (c) personal mobility assistance.For further assistance, please visit - https://vakilsearch.com/  ",
-
-    "How do I make an appeal ?",
-    "Any person aggrieved by the order of the competent authority refusing to grant a certificate of registration or revoking a certificate of registration may, within such period as may be prescribed by the State Government, prefer an appeal to such appellate authority, as may be notified by the State Government against such refusal or revocation.For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "Can I make an appeal?",
-    "Any person aggrieved by the order of the competent authority refusing to grant a certificate of registration or revoking a certificate of registration may, within such period as may be prescribed by the State Government, prefer an appeal to such appellate authority, as may be notified by the State Government against such refusal or revocation.For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "I want a special certification for my disabilities",
-    "The appropriate Government shall designate persons, having requisite qualifications and experience, as certifying authorities, who shall be competent to issue the certificate of disability. For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "I have a special disability, I need a certificate to prove that",
-    "The appropriate Government shall designate persons, having requisite qualifications and experience, as certifying authorities, who shall be competent to issue the certificate of disability.For further assistance, please visit - https://vakilsearch.com/",
-
-    "What is the procedure for certifying that I am a disabled person?",
-    "Any person with specified disability, may apply, in such manner as may be prescribed by the Central Government, to a certifying authority having jurisdiction, for issuing of a certificate of disability. For further assistance, please visit - https://vakilsearch.com/",
-
-    "Do disable persons have a special court?",
-    "For the purpose of providing speedy trial, the State Government shall, with the concurrence of the Chief Justice of the High Court, by notification, specify for each district, a Court of Session to be a Special Court to try the offences under this Act. For further assistance, please visit - https://vakilsearch.com/",
-
-    "Do disable people have special funds?",
-    "There shall be constituted a Fund to be called the State Fund for persons with disabilities by a State Government in such manner as may be prescribed by the State Government.For further assistance, please visit - https://vakilsearch.com/ ",
-
-    "Do disable people have access to a special public prosecutor?",
-    "For every Special Court, the State Government may, by notification, specify a Public Prosecutor or appoint an advocate, who has been in practice as an advocate for not less than seven years, as a Special Public Prosecutor for the purpose of conducting cases in that CourtFor further assistance, please visit - https://vakilsearch.com/ ",
-
-    "What are the categories of disabilities?",
-    "You can be categorized into - Physical disability, Visual impairment ,Hearing impairment,speech and language disability,  Intellectual disability.  Any other category as may be notified by the Central Government. For further assistance, please visit - https://vakilsearch.com/ ",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    "when was the THE RIGHTS OF PERSONS WITH DISABILITIES ACT formed ?",
-    "2016",
-
-
-
+    “¿Cuál es su misión?,
+    “Nuestra misión es impulsar el florecimiento humano promoviendo la libertad individual y los principios judeocristianos.”,
+“¿Creen en Dios”,
+“Creemos en que Dios es el creador providente de todas las cosas. Dios es la primera y máxima realidad. Es un Dios verdadero, vivo, creador del cielo y de la tierra, omnipresente y omnisciente. Nos creó y estableció una alianza con nosotros. Le llamamos Padre porque lo reconocemos como una autoridad trascendente que nos ama.” ,
+“¿En qué fundamentan la dignidad de la persona humana?”,
+“La dignidad de la persona deriva de su condición de hijo de Dios. Dios creó al ser humano a Su imagen: libre y responsable. Nuestra dignidad inherente deriva de nuestra filiación divina y no de nuestras características físicas, estatus social, posesiones materiales u otros atributos. Estamos llamados por Dios a ser compasivos y caritativos unos con otros, partiendo, no de la imposición, sino de acciones libres y responsables.”,
+“¿Creen que existe la verdad?”,
+“Existe la verdad y el hombre es capaz de conocerla. Las personas, dotadas de inteligencia, somos capaces de aprehender la verdad sobre el mundo que nos rodea, aunque siempre de forma imperfecta. A través del estudio y del diálogo con otras personas, discernimos la verdad. La verdad revelada por Dios nos permite aproximarnos al conocimiento de Dios y su creación.”,
+“¿Qué caracteriza a la persona humana?”,
+“La persona es libre, responsable y social por naturaleza. Las personas expresamos, a través de nuestros actos, nuestras preferencias y capacidades cuando elegimos en libertad los bienes morales que nos potencian. Las personas libres y responsables asumimos las consecuencias positivas y negativas de nuestras elecciones. Somos cocreadores de cultura, instituciones y riqueza, sobre todo cuando cooperamos pacíficamente con otros. La cooperación entre las personas depende de la igualdad ante la ley, de la prueba y error como factor correctivo y así mismo, de la libertad (del mecanismo) de precios que sintetizan información (informa) sobre la escasez relativa de los bienes y su demanda.” ,
+“¿Qué es el pecado?” ,
+“El pecado es una realidad. El pecado es una realidad histórica que nos afecta en el tiempo y en el espacio. Los hombres no tenemos conocimiento perfecto de lo que ocurre a nuestro alrededor y solo podemos atenernos al aprendizaje frente al conocimiento disperso de factores, necesidades y procesos. Es de mejor calidad la información que sustenta nuestras elecciones en un entorno libre que en un entorno coercitivo y centralizado, aunque nunca será perfecta. A veces, las personas elegimos el mal; pero si somos libres, podemos reconocer nuestra falta, pedir perdón y rectificar”,
+“¿De qué depende el florecimiento material?”,
+“El florecimiento material depende de la creación de riqueza. Las personas prosperan cuando producen, consumen e intercambian libremente con los demás. Los intercambios voluntarios permiten a las personas expresar su naturaleza creativa. Convierten las transacciones que pudieran ser juegos de suma cero, donde la ganancia de uno es a costillas del otro, en transacciones mutuamente ventajosas.  El florecimiento humano requiere que la comunidad y sus gobernantes respeten los derechos de propiedad privada, la libertad de contratos y el Estado de Derecho. Dichas instituciones potencian la creación de riqueza.”,                   
+“¿Somos todos iguales?”,
+“Todos los seres humanos son iguales ante la ley. Recibimos de Dios los dones de la vida, la libertad y la propiedad. La igualdad ante la ley de los gobernados se inspira en la igualdad de todas las criaturas humanas a ojos de Dios Padre. Muchos textos constitucionales coinciden con la tradición judeocristiana en reconocer la propiedad, la vida y la libertad de los hombres, como derechos anteriores y superiores al estado.  El principio de subsidiariedad fortalece al estado de derecho por cuanto busca evitar que el aparato gubernamental usurpe aquellas funciones que deben ser desempeñadas por la persona individual y las instituciones que le son más inmediatas, y porque reduce la asistencia estatal únicamente a aquellas instancias en que las personas individuales y las instituciones que le son más inmediatas no han sido capaces de desempeñar las funciones que les son propias.”,
+“¿Qué piensan de la familia?”,
+“La familia es el fundamento de la sociedad. Una familia es una sociedad natural y el fundamento de la sociedad, cuyo derecho a existir es sustentado por la ley divina. La familia es una comunidad de personas conformada por padre, madre e hijos.  Las sagradas escrituras resaltan la relevancia de la familia: nos instan a honrar a padre y a madre y describen como modelo a la Sagrada Familia, conformada por José, María y Jesús. Las personas que tienen vocación al matrimonio y a la paternidad reciben la gracia y acompañamiento de Dios para honrar el compromiso matrimonial a ser fiel y a honrar y respetar a la pareja elegida, y para formar y educar a sus hijos en el amor y la fe.” , 
+“¿De qué depende el futuro de nuestra civilización?”,
+“El futuro de la civilización depende de la cultura de la libertad. Si la persona humana tiene un origen y un destino trascendente, entonces un entorno cultural que reconoce esta verdad conduce al florecimiento humano. La cultura de la libertad y de la vida produce orden y armonía entre los miembros de la comunidad, y la familia es la principal transmisora de dicha cultura. Con frecuencia, las personas creyentes entran en tensión con la cultura popular, o la cultura secular, la cual puede alejarnos de Dios, de lo bello y del bien, y suele tomar matices intolerantes. Creemos que es necesario rescatar los valores judeo-cristianos que constituyen los cimientos de la civilización occidental, incluyendo el valor del pluralismo y el respeto a quienes tienen convicciones diferentes a las nuestras.”,
+”¿Qué valoran?”,
+“Valoramos la Veracidad. Es la virtud que nos lleva a buscar, en todo y ante todo, la verdad y a defenderla con valor. La persona veraz es sincera, honesta, franca y tiene buena fe. Sabe escuchar y respetar las opiniones del prójimo. La Libertad. La persona libre posee la facultad natural para pensar y actuar según su voluntad ordenada al bien. Ser libre implica ser responsable. La Integridad. La persona íntegra es de una sola pieza: recta, confiable, coherente y honesta. Piensa lo que vive y vive lo que piensa. La Humildad. La persona humilde se reconoce como un ser creado, herido por el pecado pero amado infinitamente por Dios. La Tolerancia. La persona tolerante sabe que existen diferentes criterios y tiene capacidad de debatir con el otro con paciencia y comprensión. Distingue entre el respeto a la persona y sus ideas, creencias o prácticas, que pueden o no ser erróneas.”
 
 ]
 {
