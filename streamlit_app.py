@@ -78,6 +78,8 @@ Pruebe con alguna de estas preguntas:
 11. ¿Puede un cristiano ser capitalista?
 12. ¿Cómo sostener que la moral es universal y objetiva, después de Darwin?
 13. ¿Qué es más importante: la libertad o la verdad?
-
+14. ¿Por qué permitieron los cristianos que se cerraran las iglesias durante la pandemia de Covid?
+15. ¿Occidente sigue siendo cristiano o ya es poscristiano?
+16. ¿Es la modernidad un proyecto cultural cristiano?
 ```
     """)
