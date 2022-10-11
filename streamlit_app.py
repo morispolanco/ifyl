@@ -10,12 +10,12 @@ from Sentiment import sentiment
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
-start_sequence = "\nMises:"
+start_sequence = "\nIFYL:"
 restart_sequence = "\n\nPerson:"
 
 st.set_page_config(
     page_icon='🏢',
-    page_title='AI Mises ChatBot',
+    page_title='ChatBot del Instituto Fe y Libertad',
     layout="centered",
     initial_sidebar_state="expanded",
     menu_items={
@@ -24,9 +24,9 @@ st.set_page_config(
         'Report a bug': "https://github.com",
     }
 )
-st.title("AI Mises ChatBot")
+st.title("ChatBot del Instituto Fe y Libertad")
 
-st.sidebar.title("🏢 AI Mises Chatbot")
+st.sidebar.title("🏢 ChatBot del Instituto Fe y Libertad")
 st.sidebar.markdown("""
 
 **Feedback/Questions**:
@@ -51,8 +51,8 @@ def append_interaction_to_chat_log(question, answer, chat_log=None):
         return f'{chat_log}{restart_sequence} {question}{start_sequence}{answer}'
 
 
-question = st.text_input("Say Something to Mises:",
-                         value='Hello Mises')
+question = st.text_input("Pregúntenos cualquier cosa:",
+                         value='¿Cuál es su misión?')
 message(question, is_user=True)
 
 answer = mises(question, chat_log)
