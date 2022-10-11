@@ -20,8 +20,8 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     menu_items={
         'About': "This is a chatbot created using OPENAI's Advance GPT-3 model",
-        'Get Help': 'https://github.com',
-        'Report a bug': "https://github.com",
+        'Get Help': 'mailto:mpolanco@feylibertad.org',
+        'Report a bug': "mailto:mpolanco@feylibertadd.org",
     }
 )
 st.title("ChatBot del Instituto Fe y Libertad")
@@ -30,7 +30,7 @@ st.sidebar.title("🏢 ChatBot del IFYL")
 st.sidebar.markdown("""
 
 **Feedback/Questions**:
-[Github](https://github.com)
+[Instituto Fe y Libertad](https://feylibertad.org)
 """)
 
 if 'generated' not in st.session_state:
@@ -73,7 +73,11 @@ Pruebe con alguna de estas preguntas:
 6. ¿Qué lugar ocupa el bienestar material en el florecimiento humano?
 7. ¿Cómo se relaciona la verdad con la libertad?
 8. ¿Cómo damos gloria a Dios?
-9. ¿Se puede ser liberal en política y conservador en moral?
+9. ¿Puede un cristiano ser liberal?
 10. ¿Qué ideas o principios deben presidir el ordenamiento social y político?
+11. ¿Puede un cristiano ser capitalista?
+12. ¿Cómo sostener que la moral es universal y objetiva, después de Darwin?
+13. ¿Qué es más importante: la libertad o la verdad?
+
 ```
     """)
