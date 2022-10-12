@@ -81,5 +81,9 @@ Pruebe con alguna de estas preguntas:
 14. ¿Por qué permitieron los cristianos que se cerraran las iglesias durante la pandemia de Covid?
 15. ¿Occidente sigue siendo cristiano o ya es poscristiano?
 16. ¿Es la modernidad un proyecto cultural cristiano?
+17. ¿Cuál es la finalidad de la vida humana?
+18. ¿Puede un cristiano ser libertario?
+19. ¿Qué es el bien común?
+20. ¿Puede un cristiano sostener que el egoísmo es una virtud y que el altruismo es malo?
 ```
     """)
